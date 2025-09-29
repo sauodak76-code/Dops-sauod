@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN App - Student List</title>
+    <link rel="icon" href="/favicon.ico" />
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #e0f7fa, #fce4ec);
+        color: #333;
+      }
+
+      header {
+        background-color: #00796b;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      #root {
+        padding: 2rem;
+      }
+
+      .student-list {
+        background-color: white;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 2rem auto;
+      }
+
+      .student-list h2 {
+        color: #d81b60;
+        margin-bottom: 1rem;
+      }
+
+      .student-list ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .student-list li {
+        padding: 0.5rem;
+        border-bottom: 1px solid #eee;
+      }
+
+      .student-list li:last-child {
+        border-bottom: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>MERN App</header>
+    <div id="root">
+      <div class="student-list">
+        <h2>Student List</h2>
+        <ul>
+          <li>Ali Khan</li>
+          <li>Sara Ahmed</li>
+          <li>Bilal Qureshi</li>
+          <li>Fatima Noor</li>
+          <li>Usman Tariq</li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
